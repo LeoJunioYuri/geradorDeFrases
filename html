@@ -1,0 +1,47 @@
+<head>
+  <title>Gerador de Frases</title>
+  <!--Created By Sami Khan.
+        Do use it freely In your Works, but make sure to Credit Me.-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- responsivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <!-- TITULO DA PAGINA  -->
+<section class="rainbow">
+  <h1 class="gradient1">GERADOR DE FRASES</h1>
+</section>
+<!-- Dois divs lado a lado -->
+<div id="wrapper">
+  <!-- div da esquerda -->
+  <div id="left">
+    <div class = "escuro">
+      <!-- Onde será exibido a frase gerada -->
+      <div id="frase" class="frase"> </div></div>
+    <button class="button btn btn-1" onClick="novafrase()"> <span>Gerar Frase</span></button>
+    <!-- ícones de redes sociais -->
+    
+    <div class="icon-pack2">
+      <h3 class = "rainbow">Compartilhe a frase!</h3>
+      <ul>
+        <li><a><i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+        <li><a><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+        <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+        <li><a onclick="tweetIt()"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+      </ul>
+    </div>
+    <!-- parte do "programado por ..." -->
+    <footer class = "escuro">
+      <p class = "rainbow2">Programado com <3 por Leonardo Junio</p>
+    </footer>
+  </div>
+<!-- div onde será exibido a imagem correspondente ao autor da frase -->
+<div id="right"></div>
+<!-- fim do div que corresponde ao layout inteiro -->
+</div>
+</body>
+<script src="javascript.js"></script>
